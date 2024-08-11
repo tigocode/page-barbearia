@@ -1,8 +1,9 @@
 ## Orientações Basicas
 
   [x] Resetar os arquivos page e styles
-  [ ] Criar components
-    [ ] Header
+  [x] Criar components
+    [x] Header
+      [x] Estilizar o Topo
   [ ] Criar sections
     [ ] Banner
     [ ] informations
