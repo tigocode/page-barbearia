@@ -1,0 +1,41 @@
+## Orientações Basicas
+
+  [x] Resetar os arquivos page e styles
+  [ ] Criar components
+    [ ] Header
+  [ ] Criar sections
+    [ ] Banner
+    [ ] informations
+  [ ] Criar styles
+    [ ] Light
+    [ ] Dark
+  [x] Baixar arquivos
+    [x] Add arquivos no projeto
+  [ ] Criar responsive
+    [ ] 1080px
+    [ ] 1024px
+    [ ] 768px
+    [ ] 425px
+
+## informations importants
+
+### Paleta de cores
+No desenvolvimento do projeto deve ser utilizada a seguinte paleta de cores:
+
+#FFFFFF
+#232323
+#000000
+#B2987D
+
+TÍTULO DA PÁGINA
+BarberShop
+
+Seção texto da Landing Page:
+
+<titulo> Bem-vindo a Barber Shop
+
+<paragrafo>Nossa barbearia sempre oferece profissionais de qualidade e estamos prontos para lidar com suas maiores expectativas.
+
+<paragrafo> Nossos serviços são dedicados ao seu sucesso pessoal. Aqui temos uma equipe premiada que demonstrou o talento de mestres barbeiros em vários concursos de estilo. Deixe nosso barbeiro ser seu estilista pessoal e você nunca ficará desapontado.
+
+<pagagrafo> S. Kelly
