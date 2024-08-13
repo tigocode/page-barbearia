@@ -1,5 +1,8 @@
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 .container_banner {
@@ -11,11 +14,35 @@
   background-position: 0% 35%;
   
 }
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.container_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 
+  width: 1024px;
+  height: 60vh;
+  
+  text-align: center;
+}
+.container_text h1 {
+  font-size: 40px;
+  color: #000000;
+}
+.text {
+  font-size: 18px;
+  line-height: 25px;
+  word-break: keep-all;
+  color: #000000;
+}
 .assinatura {
   font-family: 'Great Vibes', cursive;
   font-weight: 500;
   font-size: 50px;
   color: #B2987D;
+}
+
+.dark_mode {
+  background-color: #232323;
 }
