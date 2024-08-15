@@ -7,13 +7,19 @@ import styles from './page.module.css';
 import Logo from '../../public/barbearia.png';
 
 export default function Home(props) {
+  const [ehThemeDark, setEhThemeDark] = useState(false);
+
+  function toChangeTheme() {
+    setEhThemeDark(!ehThemeDark);
+  }
   return (
-    <>
+    <div className={ehThemeDark ? styles.dark_mode : styles.light_mode}>
       <header className={styles.container}>
         <div className={styles.container_topo}>
           <Image src={Logo} className={styles.image} />
-          <button /* onClick={} */>
-            <BsSun className={styles.icon} />
+          <button onClick={toChangeTheme}>
+            { ehThemeDark ? <BsSun className={styles.icon} /> :
+            <BsMoon className={styles.icon} />}
           </button>
         </div>
       </header>
@@ -27,6 +33,6 @@ export default function Home(props) {
           <p className={styles.assinatura}>S. Kelly</p>
         </section>
       </main>
-    </>
+    </div>
   );
 }

@@ -5,6 +5,7 @@
   width: 100%;
   padding: 10px 20px;
 }
+
 .container_topo {
   display: flex;
   justify-content: space-between;
@@ -13,13 +14,13 @@
   max-width: 1024px;
   width: 100%;
   height: 10vh;
-
-  background: #FFF;
 }
+
 .image {
   width: 140px;
   height: 140px;
 }
+
 .container_topo button {
   padding: 10px 20px;
   border-radius: 30px;
@@ -27,15 +28,18 @@
 
   background: none;
 }
+
 .icon {
   font-size: 30px;
 }
+
 .container_main {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
+
 .container_banner {
   width: 100%;
   height: 30vh;
@@ -43,8 +47,9 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 0% 35%;
-  
+
 }
+
 .container_text {
   display: flex;
   flex-direction: column;
@@ -54,19 +59,22 @@
 
   width: 1024px;
   height: 60vh;
-  
+
   text-align: center;
 }
+
 .container_text h1 {
   font-size: 40px;
   color: #000000;
 }
+
 .text {
   font-size: 18px;
   line-height: 25px;
   word-break: keep-all;
   color: #000000;
 }
+
 .assinatura {
   font-family: 'Great Vibes', cursive;
   font-weight: 500;
@@ -74,6 +82,20 @@
   color: #B2987D;
 }
 
+.light_mode {
+  background-color: #FFFFFF;
+}
+
 .dark_mode {
   background-color: #232323;
+}
+
+.dark_mode .container_text h1,
+.dark_mode .text {
+  color: #FFF;
+}
+
+.dark_mode .icon,
+.dark_mode .image {
+  filter: invert(1) brightness(2);
 }
